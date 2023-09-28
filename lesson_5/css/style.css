@@ -1,0 +1,137 @@
+@import url('reset.css');
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@font-face{
+        font-family: "Causten";
+        src: url("../fonts/Causten-Regular.woff2") format("woff2"), url("../fonts/Causten-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+@font-face{
+        font-family: "Causten";
+        src: url("../fonts/Causten-Medium.woff2") format("woff2"), url("../fonts/Causten-Medium.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+}
+@font-face{
+        font-family: "Causten";
+        src: url("../fonts/Causten-Semi-Bold.woff2") format("woff2"), url("../fonts/Causten-Semi-Bold.woff") format("woff");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+}
+@font-face{
+        font-family: "Causten";
+        src: url("../fonts/Causten-Bold.woff2") format("woff2"), url("../fonts/Causten-Bold.woff") format("woff");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+}
+
+
+body{
+    font-family: "Inter", sans-serif
+}
+span{
+        font-family: 'Causten';
+        color: rgb(138, 128, 150);
+        font-weight: 500;
+        font-size: 30px;
+        text-decoration: underline;
+}
+
+.header__image {
+    text-align: center;
+}
+.header__title {
+        color: rgb(150, 19, 19);
+        font-family: 'Causten';
+        font-weight: 600;
+        font-size: 40px;
+}
+.header__subtitle {
+        color: #6B77E5;
+        font-family: 'Causten';
+        font-weight: 500;
+        font-size: 30px;
+}
+
+.content__title {
+        color: black;
+        font-family: 'Causten';
+        font-weight: 500;
+        font-size: 30px;
+        text-transform: capitalize;
+}
+.content__text {
+        color: #7D7D7D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.46;
+}
+
+.list__item--mod{
+        color: #664f4f;
+        font-family: "Causten";
+        font-weight: normal;
+        line-height: 1.27;
+        font-size: 19px;
+}
+
+.list__item {
+            color: #7D7D7D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.46;
+}
+
+.business__title {
+        color: #37393F;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.27;
+}
+.business__text {
+        color: #7D7D7D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.46;
+}
+.business__subtitile {
+        color: #6B77E5;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.27;
+}
+
+.project__title {
+        color: #37393F;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.27;
+}
+.project__text {
+        color: #7D7D7D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.46;
+}
+.footer__link {
+        font-family: 'Causten';
+        font-weight: 700;
+        color: rgb(150, 19, 19);
+        font-size: 60px;
+        line-height: 1.30;
+}
