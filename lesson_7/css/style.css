@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+@font-face {
+        font-family: "CoreSansC";
+        src: url(../fonts/CoreSansC-65Bold.woff2) format("woff2"), url(../fonts/CoreSansC-65Bold.woff) format("woff");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+}
+@font-face{
+        font-family: "Causten";
+        src: url(../fonts/causten-regular.woff2) format("woff2"), url(../fonts/causten-regular.woff) format("woff");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+}
+@font-face{
+        font-family: "Causten";
+        src: url(../fonts/Causten-Bold.woff2) format("woff2"), url(../fonts/Causten-Bold.woff) format("woff");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+}
+
+@import url('reset.css');
+
+
+
+.main {
+        padding: 20px 15px;
+        
+}
+.template-content {
+        max-width: 1248px;
+}
+.template-title {
+        color: #37393F;
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 16px;
+        background: url(../img/Rectangle\ 8.png)515px 4px no-repeat;
+     
+}
+.template-subtitle {
+        color: #37393F;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 121%;
+        margin-bottom: 70px;
+}
+.template-color-subtitle{
+        color: #37393F;
+        font-family: Poppins, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+
+}
+.template-text-title {
+        color: #37393F;
+        font-family: Poppins, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 121%;
+}
+
+.template-text {
+        color: #7D7D7D;
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 146.187%;
+        margin-bottom: 32px; 
+}
+
+.template-color-text {
+        color: #40DDB6;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 146.187%;
+        margin-bottom: 24px;
+}
+.template-color-subtitle span{
+        color: #40DDB6;
+        font-family: Poppins, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 8px;
+}
+.template-top-subtitle{
+        color: #37393F;
+        font-family: Poppins, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 100px;
+
+}
+.template-top-subtitle span{
+        color: #40DDB6;
+        font-family: Poppins, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 8px;
+}
+.template-text span{
+        color: #40DDB6;
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 146.187%;
+}
+
+.project-content {
+        padding: 50px 30px;
+        max-width: 890px;
+}
+.project-title {
+        color: #37393F;
+        font-family: Poppins, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 127%;
+        margin-bottom: 13px;
+}
+.project-text {
+        color: #7D7D7D;
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 146.187%;
+        margin-bottom: 35px;
+}
+
+.unnumber-list-item{
+        list-style-type: disc;
+}
+
+.project-list {
+        color: #7D7D7D;
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 146.187%; 
+        margin-bottom: 35px;
+        list-style-type: disc;
+        padding-left: 45px;
+        
+}
+.list-item{
+        list-style-type: none;
+}
+.project-text p{
+        margin-bottom: 30px;
+}
+
+
+.clothing-content {
+        max-width: 1334px;
+        padding: 0 10px;
+        margin-bottom: 150px;
+}
+.clothing-title {
+        color: #3C4242;
+        font-family: Core Sans C, sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 33.5px; 
+        letter-spacing: 0.56px;
+        background: url(../img/Rectangle\ 21.png) 0 3px no-repeat ;
+        padding-left: 18px;
+}
+.clothing-subtitle {
+        color: #807D7E;
+        font-family: Core Sans C, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 33.5px;
+        letter-spacing: 0.4px;
+}
+.clothing-text {
+        color: #807D7E;
+        font-family: Causten, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 33.5px; 
+        letter-spacing: 0.4px;
+}
+.clothing-text span{
+        font-weight: 700;
+}
+
+.jewels-content {
+        max-width: 504px;
+        display: inline-block;
+        margin-right: 75px;
+}
+.jewels-title {
+        text-transform: uppercase;
+        color: #D58417;
+        font-family: Cormorant Infant, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: -40px;
+}
+.jewels-subtitle {
+        text-transform: capitalize;
+        color: #000;
+        font-family: Cormorant Infant, sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+}
+.jewels-text {
+        color: #606060;
+        font-family: Cormorant Infant, sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+}
+.jewels-images {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 0;
+        max-width: 570px;
+}
+.jewels-img {
+        display: inline-block;
+        vertical-align: middle;
+}
+.image1 {
+        margin-right: 30px;
+        max-width: 177px;
+}
+.image2{
+        max-width: 307px;
+}
+
+.practice {
+        max-width: 500px;
+        margin: 0 auto;
+}
+.practice-block1 {
+        opacity: 0.3;
+        font-size: 33px;
+        border: #40DDB6 solid 3px;
+        border-radius: 10px;
+}
+.practice-block2 {
+        font-size: 33px;
+        border-top: #D58417 dotted 7px;
+        border-bottom: #4df547 dashed 12px;
+        border-right: #606060 dotted 8px;
+        border-left: #050f04 dashed 10px;
+}
+.practice-block2 span{
+        visibility: hidden;
+}
