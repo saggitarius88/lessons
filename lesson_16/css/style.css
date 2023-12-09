@@ -333,10 +333,31 @@
     width: 246px;
 }
 
-.check-out__block--margin{
+.block-phone{
     margin-bottom: 43px;
 }
+.block-phone__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
+}
+.block-phone__label{
+    color: #3C4242;
+    font-size: 18px;
+   font-weight: 600;
+   line-height: normal;
+   letter-spacing: 0.36px;
+
+}
+.block-phone__input{
+    height: 54px;
+    border-radius: 8px;
+    background: #F6F6F6;
+    padding: 17px;
+    width: 426px;
+
+}
 .check-out__btn-block {
     display: flex;
     flex-direction: column;
@@ -346,7 +367,7 @@
 .btn__block-item {
     margin-bottom: 32px;
 }
-.btn__block-btn {
+.btn-block__btn {
     width: 195px;
     height: 54px;
     border-radius: 8px;
@@ -359,10 +380,10 @@
     line-height: normal;
     transition: all 0.4s ease;
 }
-.btn__block-btn:hover{
+.btn-block__btn:hover{
     background: #451683;
 }
-.btn__block-checkbox {
+.btn-block__checkbox {
     position: absolute;
     top: 0;
     left: 0;
@@ -370,7 +391,7 @@
     height: 0;
     opacity: 0;
 }
-.btn__block-label {
+.btn-block__label {
     display: inline-flex;
     gap: 11px;
     margin-bottom: 14px;
@@ -380,7 +401,7 @@
     font-weight: 400;
     line-height: normal;
 }
-.btn__block-label::before{
+.btn-block__label::before{
     content: "";
     width: 20px;
     height: 20px;
@@ -391,11 +412,11 @@
     flex: 0 0 20px;
 }
 
-.btn__block-item--checkbox{
+.btn-block__item--checkbox{
     position: relative;
 }
 
-.btn__block-checkbox:checked + .btn__block-label::before{
+.btn-block__checkbox:checked + .btn-block__label::before{
     background: url(../img/Checkbox.svg) center/20px no-repeat;
     outline: 0px;
 }
@@ -714,7 +735,7 @@
     margin-bottom: 60px;
 }
 
-.peyment__btn{
+.payment__btn{
     width: 108px;
     height: 54px;
     padding: 16px 20px;
@@ -728,6 +749,6 @@
     line-height: normal;
     transition: all 0.4s ease;
 }
-.peyment__btn:hover{
+.payment__btn:hover{
     background: #411c72;
 }
