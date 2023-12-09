@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 16</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="page">
+            <div class="info">
+            <div class="info__container">
+                <h2 class="info__title">My Info</h2>
+                <h4 class="info__subtitle">Add Address</h4>
+                <form action="#" method="POST"  class="info__form">
+                    <div class="info__block block-info">
+                        <div class="block-info__item">
+                        <label for="fname" class="block-info__label">First Name*</label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name"  required  tabindex="1"  autocomplete="on"  class="block-info__input">
+                        </div>
+                        <div class="block-info__item">
+                            <label for="lname" class="block-info__label">Last Name*</label>
+                            <input type="text" id="lname" name="lname" placeholder="Last Name"  required  tabindex="2"  autocomplete="on" class="block-info__input">
+                        </div>
+                    </div>
+                    <div class="info__block block-info">
+                        <div class="block-info__item">
+                        <label for="region" class="block-info__label">Country / Region*</label>
+                        <input type="text" id="region" name="region" placeholder="Country / Region"  required  tabindex="3"  autocomplete="on" class="block-info__input">
+                        </div>
+                        <div class="block-info__item">
+                            <label for="cname" class="block-info__label">Company Name</label>
+                            <input type="text" id="cname" name="cname" placeholder="Company (optional)" tabindex="4"  autocomplete="off" class="block-info__input">
+                        </div>
+                    </div>
+                    <div class="info__block block-info">
+                        <div class="block-info__item">
+                        <label for="adress" class="block-info__label">Street Address*</label>
+                        <input type="text" id="adress" name="adress" placeholder="House number and street name"  required  tabindex="5"  autocomplete="off" class="block-info__input">
+                        </div>
+                        <div class="block-info__item">
+                            <label for="apt" class="block-info__label">Apt, suite, unit</label>
+                            <input type="text" id="apt" name="apt" placeholder="apartment, suite, unit, etc. (optional)" tabindex="6"  autocomplete="off" class="block-info__input">
+                        </div>
+                    </div>
+                    <div class="info__block block-info">
+                        <div class="block-info__item">
+                        <label for="city" class="block-info__label">City*</label>
+                        <input type="text" id="city" name="city" placeholder="Town / City"  required  tabindex="7"  autocomplete="on" class="block-info__input">
+                        </div>
+                        <div class="block-info__item">
+                            <label for="state" class="block-info__label">State*</label>
+                           <select id="state" name="state" class="block-info__select" tabindex="8">
+                            <option value="01">State</option>
+                           </select>
+                        </div>
+                    </div>
+                    <div class="info__block block-info">
+                        <div class="block-info__item">
+                        <label for="phone" class="block-info__label">Phone*</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone"  required  tabindex="9"  autocomplete="on" class="block-info__input">
+                        </div>
+                        <div class="block-info__item">
+                            <label for="code" class="block-info__label">Postal Code*</label>
+                            <input type="text" id="code" name="code" placeholder="Postal Code"  required  tabindex="10"  autocomplete="off" class="block-info__input">
+                        </div>
+                    </div>
+                    <div class="info__text-block block-text">
+                        <label for="delivery" class="block-text__label">Delivery Instruction</label>
+                        <textarea class="block-text__textarea" name="delivery" id="delivery" cols="30" rows="10" tabindex="11"  placeholder="Delivery Instruction"></textarea>
+                    </div>
+                    <div class="info__checkbox checkbox">
+                        <div class="checkbox__item">
+                        <input type="checkbox" name="checkbox" id="checkbox" class="checkbox__input">
+                        <label for="checkbox" tabindex="12" class="checkbox__label">Set as default shipping address</label>
+                        </div>
+                        <div class="checkbox__item">
+                        <input type="checkbox" name="checkbox" id="check" class="checkbox__input">
+                        <label for="check" tabindex="13" class="checkbox__label">Set as default billing address</label>
+                         </div>
+                    </div>
+                    <div class="info__btn-block btn-block">
+                        <button type="submit" tabindex="14" class="btn-block__btn-save">Save</button>
+                        <button type="reset" tabindex="15" class="btn-block__btn-cancel">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+            <div class="check-out">
+                <div class="check-out__container">
+                <h2 class="check-out__title">Check Out</h2>
+                <h4 class="check-out__subtitle">Billing Details</h4>
+                <form action="#" class="check-out__form">
+                    <div class="check-out__block block-check">
+                     <div class="block-check__item">
+                        <label for="firstname" class="block-check__label">First Name*</label>
+                        <input type="text" class="block-check__input" name="firstname" id="firstname"  tabindex="16"  placeholder="First Name" required>
+                     </div>
+                        <div class="block-check__item">
+                            <label for="lastname" class="block-check__label">Last Name*</label>
+                            <input type="text" class="block-check__input" name="lastname" id="lastname" tabindex="17" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="check-out__block block-check">
+                        <div class="block-check__item">
+                           <label for="country" class="block-check__label">Country / Region*</label>
+                           <input type="text" class="block-check__input" name="country" id="country" tabindex="18" placeholder="Country / Region" required>
+                        </div>
+                           <div class="block-check__item">
+                               <label for="company" class="block-check__label">Company Name</label>
+                               <input type="text" class="block-check__input" name="company" id="company" tabindex="19" placeholder="Last Name">
+                           </div>
+                       </div>
+                       <div class="check-out__block block-check">
+                        <div class="block-check__item">
+                           <label for="street" class="block-check__label">Street Address*</label>
+                           <input type="text" class="block-check__input" name="street" id="street" tabindex="20" placeholder="House number and street name" required>
+                        </div>
+                           <div class="block-check__item">
+                               <label for="apartment" class="block-check__label">Apt, suite, unit</label>
+                               <input type="text" class="block-check__input" name="apartment" id="apartment" tabindex="21" placeholder="apartment, suite, unit, etc. (optional)">
+                           </div>
+                       </div>
+                       <div class="check-out__block-column block-column">
+                       <div class="block-column__item">
+                        <label for="city2" class="block-column__label">City*</label>
+                        <input type="text" id="city2" name="city2" placeholder="Town / City"  required  tabindex="22"  autocomplete="on" class="block-column__input ">
+                       </div>
+                        <div class="block-column__item">
+                            <label for="state2" class="block-column__label">State*</label>
+                           <select name="state2" class="block-column__select" id="state2" tabindex="23" required>
+                             <option value="">State</option>
+                           </select>
+                        </div>
+                           <div class="block-column__item">
+                            <label for="code2" class="block-column__label">Postal Code*</label>
+                            <input type="text" id="code2" name="code2" placeholder="Postal Code"  required  tabindex="24"  autocomplete="off" class="block-column__input">
+                            </div>
+                         </div>
+                     <div class="check-out__block block-phone">
+                        <div class="block-phone__item">
+                            <label for="phone2" class="block-phone__label">Phone*</label>
+                            <input type="tel" id="phone2" name="phone2" placeholder="Phone"  required  tabindex="25"  autocomplete="on" class="block-phone__input">
+                        </div>
+                     </div>
+                     <div class="check-out__btn-block btn-block">
+                        <div class="btn-block__item">
+                            <button type="submit" class="btn-block__btn" tabindex="26" >Continue to delivery</button>
+                        </div>
+                        <div class="btn-block__item btn-block__item--checkbox">
+                            <input type="checkbox" name="checkbtn" id="checkbtn" class="btn-block__checkbox"  tabindex="27">
+                            <label for="checkbtn" class="btn-block__label">Set as default shipping address</label>
+                        </div>
+                     </div>
+                     <div class="check-out__line"></div>
+                  </form> 
+                </div>
+                 </div>
+                <div class="payment">
+                    <form action="#" method="POST"  class="payment__form">
+                <div class="payment__container">
+                    <div class="payment__address-block address-block">
+                        <h3 class="address-block__title">Shipping Address</h3>
+                        <h5 class="address-block__subtitle">Select the address that matches your card or payment method.</h5>
+                        <div class="address-block__container">
+                            <div class="address-block__item">
+                                <input type="radio" class="address-block__input" name="check3" id="check3">
+                                <label for="check3" tabindex="28" class="address-block__label">Same as Billing address</label>
+                            </div>
+                            <div class="address-block__item">
+                                <input type="radio" class="address-block__input" name="check3" id="check4">
+                                <label for="check4" tabindex="29" class="address-block__label">Use a different shipping address</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment__line"></div>
+                    <div class="payment__delivery-block delivery-block">
+                        <h3 class="delivery-block__title">Shipping Method</h3>
+                        <div class="delivery-block__container">
+                            <div class="delivery-block__item">
+                                <div class="delivery-block__date">Arrives by Monday, June 7</div>
+                            </div>
+                            <div class="delivery-block__item">
+                                <div class="delivery-block__text">Delivery Charges</div>
+                                <div class="delivery-block__price">$5.00</div>
+                            </div>
+                            <h6 class="delivery-block__info">Additional fess may apply</h6>
+                        </div>
+                    </div>
+                    <div class="payment__line"></div>
+                    <div class="payment__method-block method-block">
+                        <h3 class="method-block__title">Payment Method</h3>
+                        <h6 class="method-block__subtitle">All transactions are secure and encrypted.</h6>
+                        <div class="method-block__container">
+                            <div class="method-block__card-item">
+                                <input type="radio" name="card" id="card1" value="option1" class="method-block__input">
+                                <label for="card1" tabindex="30" class="method-block__label">Credit Card</label>
+                            </div>
+                                <div class="method-block__card-text">We accept all major credit cards.</div>
+                            <div class="method-block__icons">
+                                <img src="img/gpay.svg" alt="gpay">
+                                <img src="img/visa.svg" alt="visa">
+                                <img src="img/paypal.svg" alt="paypal">
+                                <img src="img/paypass.svg" alt="paypass">
+                            </div>
+                            <div class="method-block__card-id">
+                                <div class="method-block__card-number">
+                                    <input class="method-block__input-card" tabindex="31" type="text" required name="cardn" id="cardn" autocomplete="on" placeholder="Card number"  >
+                                </div>
+                                <div class="method-block__card-number">
+                                    <input class="method-block__input-card" tabindex="32" type="text" required name="ncard" id="ncard" autocomplete="on" placeholder="Name of card"  >
+                                </div>
+                                <div class="method-block__card-number">
+                                    <input class="method-block__input-card" tabindex="33" type="text" required name="cardd" id="cardd" autocomplete="on" placeholder="Expiration date (MM/YY)"  >
+                                </div>
+                                <div class="method-block__card-number">
+                                    <input class="method-block__input-card" tabindex="34" type="password" required name="pass" id="pass" autocomplete="off" placeholder="Security Code"  >
+                                </div>
+                            </div>
+                            <div class="method-block__input-shell">
+                            <div class="method-block__cash-item">
+                                <input type="radio" name="card" id="card2" value="option2" class="method-block__input">
+                                <label for="card2" tabindex="35" class="method-block__label">Cash on delivery</label>
+                            </div>
+                            <div class="method-block__cash-text">Pay with cash upon delivery.</div>
+                            <div class="method-block__paypal">
+                                <input type="radio" name="card" id="card3" value="option3" class="method-block__input">
+                                <label for="card3" tabindex="36" class="method-block__label">PayPal</label>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="payment__btn" tabindex="37" type="submit">Pay Now</button>
+                </div>
+                </form>
+                </div>
+        </main> 
+    </div>
+        <footer class="footer"></footer>
+</body>
+</html>
